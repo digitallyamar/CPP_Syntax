@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1649323882 source:/home/abhay/dev/cpp/08_Inheritance/Daughter.cpp
+	<iostream>
+	"Mother.h"
+	"Daughter.h"
+
+1649323646 /home/abhay/dev/cpp/08_Inheritance/Mother.h
+
+1649325238 /home/abhay/dev/cpp/08_Inheritance/Daughter.h
+
+1649323632 source:/home/abhay/dev/cpp/08_Inheritance/main.cpp
+	<iostream>
+	"Mother.h"
+	"Daughter.h"
+
+1649323910 source:/home/abhay/dev/cpp/08_Inheritance/Mother.cpp
+	<iostream>
+	"Mother.h"
+	"Daughter.h"
+

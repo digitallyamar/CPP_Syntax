@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1649321184 source:/home/abhay/dev/cpp/06_ThisPointer/main.cpp
+	<iostream>
+	"Cindy.h"
+
+1649321196 /home/abhay/dev/cpp/06_ThisPointer/Cindy.h
+
+1649321232 source:/home/abhay/dev/cpp/06_ThisPointer/Cindy.cpp
+	<iostream>
+	"Cindy.h"
+

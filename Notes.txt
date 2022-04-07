@@ -1,0 +1,60 @@
+Weird syntax of CPP
+====================
+
+1.  If you want to access a global var of same name as a local var, use :: operator
+        Eg: 02_GlobalVar folder
+2.  In CPP, you can have two fns. of same name but accepting params of different types.
+    Compiler will then pick up the appropriate function based on passed parameters.
+        Eg: 03_FunctionOverload folder
+3.  If a class has a constant member, it needs to be initialized in the constructor.
+    In order to initialize this const member, we use Member Init List feature
+    Note that only const members need this type of initialization.
+    If there are any non const members, they can be initialized within the body of the constructor itself.
+    In the below eg: we have two members, one const and one normal.
+    A const member is initialized using MemberInitList feature while a normal member is init. normally in the
+    constructor's body.
+    Eg: 04_memberInitList folder
+    However, standard practice in such cases is to init both members thru MemberInitList itself!
+4.  Composition is the use of one class inside another. We need to use member initializer list
+    even if we are using CPP composition
+    (i.e. using a class as a member in another class).
+    Eg: 05_Composition folder
+5.  A friend function of a class can access all members and functions of that class.
+    The class needs to friendzone a function first before the fn. can access class elements.
+    Eg: FriendFn folder
+6.  A this pointer holds address of the current object.
+    A (*this) stands for dereferencing a pointer.
+    Eg: 06_ThePointer folder
+7.  Operator overloading changes the meaning of operators such as +, -, /, * etc.
+    when used with a Class member.
+    Eg: 07_OperatorOverloading folder
+8.  Inheritance is a way of getting class members from other Class to your class.
+    Not all members and functions will be inherited, but mostly from "public" space.
+    Inheritance is represented by the symbol ":"
+    Eg: 08_Inheritance
+9.  - Public space of a class is accessible by everyone in the program
+    - Private space of a class is accessible only by the members of same class
+    - Protected space of a class is accessible by all members of same class,
+    it's friend functions and any class derived from this class also has access to it.
+    But main does not have access to it, unless main is a friend of this class.
+    NOTE: A derived class inherits all public and protected stuff, but not the private stuff.
+    Eg: 09_PubPrivProt
+10. Polymorphism allows you to use same functions but get different outcomes depending on the
+    type of the object (Think of a computer game with different enemy chars all having attack fn.)
+    Eg: 10_Polymorphism folder
+11. Virtual function of a base class is like a template function.
+    It can be overridden by a derived class.
+    However if not overridden, base class' virt. fn itself will be used.
+    Eg: 11_VirtualFn folder
+12. Template functions helps us in creating fns. that does same operation on
+    different types of data.
+    Eg: 12_TemplateFn folder
+13. Class template is best explained by watching the video:
+    https://www.youtube.com/watch?v=mUQZ1qmKlLY&t=19549s
+    Eg: 13_ClassTemplate folder
+14. A template specialization is used when you need a class that is almost generic
+    but still need some special function to be done for specific data type.
+    So for example, if data passed in is a char, we want our class to do something else
+    Template specialization is identified by the signature code:
+    template<>
+    where <> contains no data type defined within itself.

@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1649326271 source:/home/abhay/dev/cpp/09_PubPrivProt/Daughter.cpp
+	<iostream>
+	"Mother.h"
+	"Daughter.h"
+
+1649326489 /home/abhay/dev/cpp/09_PubPrivProt/Mother.h
+
+1649326424 /home/abhay/dev/cpp/09_PubPrivProt/Daughter.h
+
+1649326263 source:/home/abhay/dev/cpp/09_PubPrivProt/Mother.cpp
+	<iostream>
+	"Mother.h"
+	"Daughter.h"
+
+1649326415 source:/home/abhay/dev/cpp/09_PubPrivProt/main.cpp
+	<iostream>
+	"Mother.h"
+	"Daughter.h"
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1649252103 source:/home/abhay/dev/cpp/04_MemberInitList/main.cpp
+	<iostream>
+	"Automobile.h"
+
+1649252167 /home/abhay/dev/cpp/04_MemberInitList/Automobile.h
+

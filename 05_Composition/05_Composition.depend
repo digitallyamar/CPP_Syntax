@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1649265801 source:/home/abhay/dev/cpp/05_Composition/main.cpp
+	<iostream>
+	"People.h"
+
+1649265368 /home/abhay/dev/cpp/05_Composition/People.h
+	<string>
+	"Birthday.h"
+
+1649264805 /home/abhay/dev/cpp/05_Composition/Birthday.h
+
+1649265824 source:/home/abhay/dev/cpp/05_Composition/Birthday.cpp
+	<iostream>
+	"People.h"
+
